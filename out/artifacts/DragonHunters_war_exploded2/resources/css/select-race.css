@@ -1,0 +1,615 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url("../images/background.jpg");
+    background-size:cover;
+    cursor: url('../images/Sword.cur'), auto;
+    background-position:center;
+    font-family: 'Cinzel', serif;
+}
+.error
+{
+    color: yellow;
+    background: darkred;
+    border: 3px solid grey;
+    padding: 4px;
+    border-radius: 13px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Cinzel', serif;
+}
+/*.box {*/
+    /*border: 5px solid grey;*/
+    /*border-radius: 15px;*/
+    /*width: 320px;*/
+    /*height: fit-content;*/
+    /*!*background: #A62A2A;*!*/
+    /*background: #352c2c;*/
+    /*color: #fff;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*position: absolute;*/
+    /*transform: translate(-50%,-50%);*/
+    /*box-sizing: border-box;*/
+    /*padding: 55px 30px 10px 40px;*/
+    /*font-family: 'Cinzel', serif;*/
+/*}*/
+
+.box input[type="text"], input[type="password"]
+{
+
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size:16px;
+    font-family: 'Cinzel', serif;
+}
+.box input[type="submit"]
+{
+    text-align: center;
+
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    background: #000000;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+}
+.rightbox{
+    border: 5px solid grey;
+    border-radius: 15px;
+    width: 250px;
+    height: 330px;
+    /*background: #A62A2A;*/
+    background: #352c2c;
+    float: right;
+    color: #fff;
+    top: 25%;
+    left: 60%;
+    margin-right: 50px;
+    text-align: center;
+    position: absolute;
+    /*transform: translate(-50%,-50%);*/
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.leftbox{
+    border: 5px solid grey;
+    border-radius: 15px;
+    width: 250px;
+    height: 330px;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    /*background: #A62A2A;*/
+    background: #352c2c;
+    color: #fff;
+    top: 25%;
+    left: 35%;
+    position: absolute;
+    /*transform: translate(-50%,-50%);*/
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.avatar
+{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position: absolute;
+    top:-50px;
+    left:calc(50% - 50px);
+
+}
+h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    color:#D9D919;
+    font-family: 'Cinzel', serif;
+
+}
+h3{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+    /*text-align: justify-all;*/
+    color:#fff;
+    font-family: 'Cinzel', serif;
+}
+.box,.box-elf,.box-orc,.box-human, .box-dwarf p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+.box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+}
+.box,.box-elf input ,.box-orc input,.box-human input,.box-dwarf input
+{
+    width: 100%;
+    margin-bottom: 10%;
+    font-family: 'Cinzel', serif;
+
+}
+.box,.box-dwarf,.box-elf,.box-orc,.box-human input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size:16px;
+    font-family: 'Cinzel', serif;
+}
+
+.box,.box-elf input[type="submit"],.box-orc input[type="submit"],.box-human input[type="submit"],.box-dwarf input[type="submit"]
+{
+    text-align: center;
+
+    outline: none;
+    height: 40px;
+    /*background: #fb2525;*/
+    background:#000000;
+    color: #ffff;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+}
+.box,.box-elf,.box-orc,.box-human input[type="submit"]:hover ,.box-dwarf input[type="submit"]:hover
+{
+    cursor: pointer;
+    /*background: #ffc107;*/
+    background:grey;
+    color:#000;
+    font-family: 'Cinzel', serif;
+
+}
+
+.box,.box-elf input[type="text"], input[type="password"],.box-orc input[type="text"], input[type="password"],.box-human input[type="text"],.box-dwarf  input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size:16px;
+    font-family: 'Cinzel', serif;
+}
+.box,.box-elf input[type="submit"]:hover,.box-orc input[type="submit"]:hover,.box-human input[type="submit"],.box-dwarf input[type="submit"]:hover
+{ text-align: center;
+
+    outline: none;
+    height: 40px;
+    /*background: #fb2525;*/
+    background:#000000;
+    color: #ffff;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+}
+.box,.box-elf input[type="submit"]:hover,.box-orc input[type="submit"]:hover,.box-human input[type="submit"]:hover,.box-dwarf input[type="submit"]:hover
+{
+    cursor: pointer;
+    /*background: #ffc107;*/
+    background: grey;
+    color:#000;
+    font-family: 'Cinzel', serif;
+
+}
+p
+{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: 'Cinzel', serif;
+}
+select {
+    outline: 0;
+    box-shadow: none;
+    border-radius: 15px;
+    background: #fffcf3;
+    align-content: center;
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    /*text-align:center;*/
+    margin-bottom: 15px;
+    font-family: 'Cinzel', serif;
+}
+.box{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 240px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/bgimg.jpg");
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}.box-elf{
+     border:  5px solid grey;
+     border-radius:15px;
+     width: 240px;
+     height: 330px;
+     display: table-cell;
+     background-image:url("../images/elf-bg1.jpg");
+     background-repeat: no-repeat;
+     background-size: 300px 420px;
+     color: #fff;
+     top: 75px;
+     position: relative;
+     box-sizing: border-box;
+     padding: 55px 30px 10px 40px;
+     font-family: 'Cinzel', serif;
+ }
+.box-elf-mage{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    background-image:url("../images/elf-mage.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-elf-hunter{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    background-image:url("../images/elf-hunter.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-elf-warrior{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    background-image:url("../images/elf-warrior.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-orc{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 240px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/orc-bg.png");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-orc-warrior{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/orc-warrior.png");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-orc-mage{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/orc-mage.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-orc-hunter{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/orc-hunter.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-dwarf{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/dwarf-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-dwarf-warrior{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/dwarf-warrior.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-dwarf-mage{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/dwarf-mage.png");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-dwarf-hunter{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/dwarf-hunter.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-human{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 240px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/human-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-human-warrior{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/human-warrior.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-human-hunter{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 240px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/human-hunter.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box-human-mage{
+    border:  5px solid grey;
+    border-radius:15px;
+    width: 270px;
+    height: 330px;
+    display: table-cell;
+    /*background: #A62A2A;*/
+    /*background: #352c2c;*/
+    background-image:url("../images/human-mage.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 420px;
+    color: #fff;
+    top: 75px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 55px 30px 10px 40px;
+    font-family: 'Cinzel', serif;
+}
+.box a,.box-elf a,.box-orc a,.box-human a, .box-dwarf a
+{
+    text-decoration: none;
+    font-size: 12px;
+    line-height:20px;
+    color: darkgrey;
+    font-family: 'Cinzel', serif;
+}
+.box,.box-elf,.box-orc,.box-human a:hover, .box-dwarf a:hover
+{
+    color: #ffc107;
+    font-family: 'Cinzel', serif;
+}
+.errorMsg
+{
+    color: #b27400;
+    text-size:17px;
+    text-align: center;
+    margin-bottom:10px;
+    font-family: 'Cinzel', serif;
+
+}
+.errorImg
+{
+    width:50px;
+    height:50px;
+    left:calc(50% - 50px);
+}
+.box,.box-elf,.box-orc,.box-human a:hover
+{
+    color: #ffc107;
+    font-family: 'Cinzel', serif;
+}
+.errorMsg
+{
+    color: #b27400;
+    text-size:17px;
+    text-align: center;
+    margin-bottom:10px;
+    font-family: 'Cinzel', serif;
+
+}
+.errorImg
+{
+    width:50px;
+    height:50px;
+    left:calc(50% - 50px);
+}
+.box:hover,.box-elf:hover,.box-orc:hover,.box-human:hover,.box-dwarf:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+#welcome
+{
+
+    height:70px;
+    margin:0px auto 50px auto;
+    font-size:50px;
+    text-shadow: -1px 2px 2px #000;
+    text-align:center;
+    color:azure;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
