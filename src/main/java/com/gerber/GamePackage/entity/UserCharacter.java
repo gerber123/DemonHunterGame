@@ -16,11 +16,14 @@ public class UserCharacter
     @Column(name="nick_name")
     private String nick_name;
 
-    @OneToOne(cascade = CascadeType.ALL)
+
+    @ManyToOne(cascade = {CascadeType.MERGE})
     @JoinColumn(name="character_type_id")
     private CharacterType characterType;
 
-    @OneToOne(cascade = CascadeType.MERGE)
+//    @OneToOne(cascade = CascadeType.MERGE)
+//    @JoinColumn(name="character_race_id")
+    @ManyToOne(cascade = {CascadeType.MERGE})
     @JoinColumn(name="character_race_id")
     private CharacterRace characterRace;
 
@@ -40,7 +43,7 @@ public class UserCharacter
     private CharacterDetail characterDetail;
 
 
-    @OneToOne(cascade = CascadeType.MERGE)
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name="character_equipment_id")
     private CharacterEquipment characterEquipment;
 

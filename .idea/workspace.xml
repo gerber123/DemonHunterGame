@@ -6,7 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d23beea-7d50-4105-8d4b-a9d39c1f42ee" name="Default Changelist" comment="" />
+    <list default="true" id="7d23beea-7d50-4105-8d4b-a9d39c1f42ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DragonHunters_war_exploded2/WEB-INF/classes/com/gerber/GamePackage/dao/UserCharacterDAOimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DragonHunters_war_exploded2/WEB-INF/classes/com/gerber/GamePackage/dao/UserCharacterDAOimpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DragonHunters_war_exploded2/WEB-INF/classes/com/gerber/GamePackage/entity/CharacterEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DragonHunters_war_exploded2/WEB-INF/classes/com/gerber/GamePackage/entity/CharacterEquipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DragonHunters_war_exploded2/WEB-INF/classes/com/gerber/GamePackage/entity/UserCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DragonHunters_war_exploded2/WEB-INF/classes/com/gerber/GamePackage/entity/UserCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CreatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CreatingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/dao/UserCharacterDAOimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/dao/UserCharacterDAOimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterEquipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterEquipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/UserCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/UserCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gerber/GamePackage/dao/UserCharacterDAOimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gerber/GamePackage/dao/UserCharacterDAOimpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gerber/GamePackage/entity/CharacterEquipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gerber/GamePackage/entity/CharacterEquipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gerber/GamePackage/entity/UserCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gerber/GamePackage/entity/UserCharacter.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,27 +34,28 @@
     <session id="-1667605102">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.110" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
+          <entry key="class" value="4" />
           <entry key="css" value="50" />
           <entry key="iml" value="1" />
-          <entry key="java" value="290" />
+          <entry key="java" value="320" />
           <entry key="jpg" value="36" />
           <entry key="js" value="4" />
           <entry key="jsp" value="63" />
@@ -50,11 +66,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
+          <entry key="CLASS" value="4" />
           <entry key="CSS" value="50" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="37" />
-          <entry key="JAVA" value="290" />
+          <entry key="JAVA" value="320" />
           <entry key="JSP" value="63" />
           <entry key="JavaScript" value="4" />
           <entry key="Properties" value="5" />
@@ -64,7 +80,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="2172" />
-          <entry key="java" value="8314" />
+          <entry key="java" value="8516" />
           <entry key="js" value="16" />
           <entry key="jsp" value="6031" />
           <entry key="properties" value="14" />
@@ -73,7 +89,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2172" />
-          <entry key="JAVA" value="8314" />
+          <entry key="JAVA" value="8516" />
           <entry key="JSP" value="6031" />
           <entry key="JavaScript" value="16" />
           <entry key="Properties" value="14" />
@@ -86,90 +102,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterEquipment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="-170">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
-                <element signature="e#1321#1322#0" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1424#1425#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1508#1509#0" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1569#1570#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1642#1643#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
-                <element signature="e#1709#1710#0" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#1812#1813#0" expanded="true" />
                 <element signature="e#1845#1846#0" expanded="true" />
-                <element signature="e#1874#1875#0" expanded="true" />
-                <element signature="e#1918#1919#0" expanded="true" />
-                <element signature="e#1954#1955#0" expanded="true" />
-                <element signature="e#1989#1990#0" expanded="true" />
-                <element signature="e#2019#2020#0" expanded="true" />
-                <element signature="e#2066#2067#0" expanded="true" />
-                <element signature="e#2104#2105#0" expanded="true" />
-                <element signature="e#2135#2136#0" expanded="true" />
-                <element signature="e#2163#2164#0" expanded="true" />
-                <element signature="e#2204#2205#0" expanded="true" />
-                <element signature="e#2238#2239#0" expanded="true" />
-                <element signature="e#2285#2286#0" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-                <element signature="e#2386#2387#0" expanded="true" />
-                <element signature="e#2436#2437#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterStats.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterDetail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/HomePageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CreatingController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/dao/UserCharacterDAOimpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="275">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
             </state>
           </provider>
         </entry>
@@ -178,34 +125,91 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/UserCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Armor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="132">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Helment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/dao/UserDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+            <state relative-caret-position="132">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Weapon.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterRace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="442">
+              <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/service/UserCharacterServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="e#1647#1648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CreatingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
@@ -224,9 +228,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>box</find>
-      <find>box-elf</find>
-      <find>.box-elf</find>
       <find>input[</find>
       <find>a,</find>
       <find>border-radius: 20px</find>
@@ -254,7 +255,13 @@
       <find>helment</find>
       <find>kurwa</find>
       <find>characterEq</find>
+      <find>equipment</find>
+      <find>get</find>
+      <find>getCharacterRace</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -269,11 +276,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/entity/UserCharacter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/creating-form.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterType.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/select-class.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterRace.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/scripts/script.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/select-race.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/character-created.jsp" />
@@ -298,18 +302,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/dao/UserCharacterDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/service/UserCharacterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/service/UserCharacterServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CreatingController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/character-equipment.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CharacterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Weapon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Pants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Helment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Gloves.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Boots.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Gloves.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Armor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/dao/UserCharacterDAOimpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/character-equipment.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CharacterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterEquipment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CreatingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterRace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/UserCharacter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/dao/UserCharacterDAOimpl.java" />
       </list>
     </option>
   </component>
@@ -322,22 +329,22 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="width" value="1937" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1039" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -560,12 +567,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541625385906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541687391175" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -698,18 +706,19 @@
       <workItem from="1541411183927" duration="5717000" />
       <workItem from="1541429367986" duration="9876000" />
       <workItem from="1541522411499" duration="17577000" />
-      <workItem from="1541583519650" duration="27112000" />
+      <workItem from="1541583519650" duration="33663000" />
+      <workItem from="1541679415613" duration="5130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135985000" />
+    <option name="totallyTimeSpent" value="147666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1549" height="830" extended-state="0" />
+    <frame x="-7" y="0" width="1550" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26729348" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -719,8 +728,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3328551" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3624642" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39971346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -731,7 +740,7 @@
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32855093" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -750,13 +759,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/dao/UserCharacterDAOimpl.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/elf-hunter.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/human-hunter.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Preload.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -949,45 +964,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/dao/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459">
           <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Gloves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -998,50 +978,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/service/UserCharacterServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1647#1648#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="261">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/dao/UserCharacterDAOimpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/HomePageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CharacterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="442">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CharacterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/rt.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="234" column="22" lean-forward="true" selection-start-line="234" selection-start-column="22" selection-end-line="234" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Armor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Boots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        <state relative-caret-position="-221">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Gloves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Pants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        <state relative-caret-position="85">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -1052,78 +1054,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterStats.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Helment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-272">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Helment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="63" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/EquipmentEntity/Weapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterEquipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="233">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
           <folding>
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1569#1570#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#1989#1990#0" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-            <element signature="e#2104#2105#0" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
-            <element signature="e#2163#2164#0" expanded="true" />
-            <element signature="e#2204#2205#0" expanded="true" />
-            <element signature="e#2238#2239#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2436#2437#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterRace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1131,24 +1104,62 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/UserCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/HomePageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/controller/CreatingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="132">
           <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/entity/CharacterEquipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/dao/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/LogInPackage/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/service/UserCharacterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gerber/GamePackage/dao/UserCharacterDAOimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
         </state>
       </provider>
     </entry>

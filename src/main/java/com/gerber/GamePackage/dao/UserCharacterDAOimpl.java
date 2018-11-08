@@ -36,7 +36,7 @@ public class UserCharacterDAOimpl implements UserCharacterDAO
     @Override
     public CharacterType getCharacterType(int id) {
         Session session=sessionFactory.getCurrentSession();
-        CharacterType characterType =session.get(CharacterType.class,id);
+        CharacterType characterType =session.load(CharacterType.class,id);
         return characterType;
     }
 
@@ -98,7 +98,7 @@ public class UserCharacterDAOimpl implements UserCharacterDAO
 //        m_int+=armor.getBonus_int()+helment.getBonus_int()+gloves.getBonus_int()+boots.getBonus_int()+pants.getBonus_int()+weapon.getBonus_int();
 
         characterUser.setCharacterEquipment(characterEquipment);
-        session.save(characterEquipment);
+        session.saveOrUpdate(characterEquipment);
         session.saveOrUpdate(characterUser);
 
 
@@ -119,7 +119,7 @@ public class UserCharacterDAOimpl implements UserCharacterDAO
     @Override
     public CharacterRace getCharacterRace(long id) {
         Session session=sessionFactory.getCurrentSession();
-        CharacterRace characterRace =session.get(CharacterRace.class,id);
+        CharacterRace characterRace =session.load(CharacterRace.class,id);
         return characterRace;
     }
 

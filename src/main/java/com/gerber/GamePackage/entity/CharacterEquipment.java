@@ -6,12 +6,13 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="character_equipment")
+@Embeddable
 public class CharacterEquipment
 {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
-    private int id;
+    private Integer id;
 
 
     @OneToOne(cascade = CascadeType.MERGE)

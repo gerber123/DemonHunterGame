@@ -1,6 +1,8 @@
 package com.gerber.GamePackage.entity;
 
 import javax.persistence.*;
+import java.util.List;
+
 @Entity
 @Table(name= "character_type" )
 public class CharacterType {
@@ -28,8 +30,9 @@ public class CharacterType {
         @Column(name="basic_wig")
         private int basic_wig;
 
-        @OneToOne(mappedBy = "characterType",cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST,CascadeType.REFRESH})
-        UserCharacter userCharacter;
+//        @OneToOne(mappedBy = "characterType",cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST,CascadeType.REFRESH})
+        @OneToMany(mappedBy = "characterType",cascade = {CascadeType.MERGE})
+        List<UserCharacter> userCharacter;
 
     public CharacterType(String name, int basic_str, int basic_dex, int basic_int, int basic_con, int basic_wig) {
         this.name = name;
@@ -43,11 +46,11 @@ public class CharacterType {
     public CharacterType() {
     }
 
-    public UserCharacter getUserCharacter() {
+    public List<UserCharacter> getUserCharacter() {
         return userCharacter;
     }
 
-    public void setUserCharacter(UserCharacter userCharacter) {
+    public void setUserCharacter(List<UserCharacter> userCharacter) {
         this.userCharacter = userCharacter;
     }
 

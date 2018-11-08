@@ -76,7 +76,7 @@ public class CreatingController
     {
 
         CharacterRace characterRace=userCharacterService.getCharacterRace(id);
-        System.out.println(characterRace.getName()+"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
+//        System.out.println(characterRace.getName()+"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
         userCharacterService.saveUserCharacterRace(characterRace);
         return "redirect:/creatingProcess/characterCreated";
     }
