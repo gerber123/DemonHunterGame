@@ -53,23 +53,19 @@ public class UserCharacterDAOimpl implements UserCharacterDAO
     }
 //
     @Override
-    public void saveCharacterEquipment() {
+    public void saveCharacterEquipment(UserCharacter characterUser) {
         Session session= sessionFactory.getCurrentSession();
-        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        String name = auth.getName();
-        User user = userService.findByUserName(name);
 
-        UserCharacter characterUser = user.getUsercharacter();
         CharacterType characterType=characterUser.getCharacterType();
         CharacterEquipment characterEquipment=new CharacterEquipment();
-        characterUser.setCharacterEquipment(characterEquipment);
+
 
         Integer id=1;
-        Gloves gloves =session.load(Gloves.class,id);
-        Helment helment =session.load(Helment.class,id);
-        Boots boots =session.load(Boots.class,id);
-        Pants pants =session.load(Pants.class,id);
-        Armor armor =session.load(Armor.class,id);
+        Gloves gloves =session.get(Gloves.class,id);
+        Helment helment =session.get(Helment.class,id);
+        Boots boots =session.get(Boots.class,id);
+        Pants pants =session.get(Pants.class,id);
+        Armor armor =session.get(Armor.class,id);
         Weapon weapon = new Weapon();
 
         characterEquipment.setArmor(armor);
@@ -79,16 +75,16 @@ public class UserCharacterDAOimpl implements UserCharacterDAO
         characterEquipment.setPants(pants);
         if(characterType.getId()==1)
         {
-            weapon =session.load(Weapon.class,1);
+            weapon =session.get(Weapon.class,1);
             characterEquipment.setWeapon(weapon);
         }
         if(characterType.getId()==2)
         {
-            weapon =session.load(Weapon.class,5);
+            weapon =session.get(Weapon.class,5);
             characterEquipment.setWeapon(weapon);
         }
         if(characterType.getId()==3) {
-            weapon = session.load(Weapon.class, 3);
+            weapon = session.get(Weapon.class, 3);
             characterEquipment.setWeapon(weapon);
         }
 //        }
@@ -97,8 +93,9 @@ public class UserCharacterDAOimpl implements UserCharacterDAO
 //        con+=armor.getBonus_con()+helment.getBonus_con()+gloves.getBonus_con()+boots.getBonus_con()+pants.getBonus_con();
 //        m_int+=armor.getBonus_int()+helment.getBonus_int()+gloves.getBonus_int()+boots.getBonus_int()+pants.getBonus_int()+weapon.getBonus_int();
 
-        characterUser.setCharacterEquipment(characterEquipment);
+
         session.saveOrUpdate(characterEquipment);
+        characterUser.setCharacterEquipment(characterEquipment);
         session.saveOrUpdate(characterUser);
 
 
@@ -113,6 +110,11 @@ public class UserCharacterDAOimpl implements UserCharacterDAO
         UserCharacter userCharacter =user.getUsercharacter();
         userCharacter.setCharacterRace(characterRace);
         session.saveOrUpdate(userCharacter);
+
+    }
+
+    @Override
+    public void saveCharacterEquipment() {
 
     }
 
@@ -176,6 +178,97 @@ public class UserCharacterDAOimpl implements UserCharacterDAO
         String name = auth.getName();
         User user = userService.findByUserName(name);
         UserCharacter characterUser=user.getUsercharacter();
+        CharacterStats characterStats= characterUser.getCharacterStats();
+//        CharacterEquipment characterEquipment=characterUser.getCharacterEquipment();
+//        int defFromItems=0;
+//        int atkFromItems=0;
+//        defFromItems+=characterEquipment.getArmor().getDefense();
+//        defFromItems+=characterEquipment.getBoots().getDefense();
+//        defFromItems+=characterEquipment.getHelment().getDefense();
+//        defFromItems+=characterEquipment.getGloves().getDefense();
+//        defFromItems+=characterEquipment.getPants().getDefense();
+//        atkFromItems+=characterEquipment.getWeapon().getAttack();
+
+
+        int atk = 30+4*characterStats.getStat_str();
+        int m_attack =30+4*characterStats.getStat_int();
+        int def = 50+4*characterStats.getStat_con();
+        int max_hp = 100+4*characterStats.getStat_con();
+        int max_energy = 30+4*characterStats.getStat_wig();
+        int chance_avoid = 150-characterStats.getStat_wig();
+        int accuracy = 150-characterStats.getStat_dex();
+        int crit_chance = 150-characterStats.getStat_dex();
+        int crit_damage = 30+4*characterStats.getStat_dex();
+        CharacterDetail characterDetail= new CharacterDetail();
+        characterDetail.setAttack(atk);
+        characterDetail.setDefense(def);
+        characterDetail.setAccuracy(accuracy);
+        characterDetail.setM_attack(m_attack);
+        characterDetail.setActual_energy(max_energy);
+        characterDetail.setMax_energy(max_energy);
+        characterDetail.setActual_hp(max_hp);
+        characterDetail.setMax_hp(max_hp);
+        characterDetail.setChance_avoid(chance_avoid);
+        characterDetail.setCrit_chance(crit_chance);
+        characterDetail.setCrit_damage(crit_damage);
+        characterDetail.setMax_exp(100);
+        characterDetail.setActual_exp(0);
+        characterUser.setCharacterDetail(characterDetail);
+        characterUser.setLvl(1);
+        session.saveOrUpdate(characterDetail);
+        session.saveOrUpdate(characterUser);
+
+
+    }
+
+     @Override
+    public void CreateCharacterStats(UserCharacter characterUser) {
+        Session session = sessionFactory.getCurrentSession();
+
+
+
+
+        int str=0;
+        int dex=0;
+        int con=0;
+        int wig=0;
+        int m_int=0;
+        int free_stats=3;
+
+        CharacterType characterType = characterUser.getCharacterType();
+        str+=characterType.getBasic_str();
+        dex+=characterType.getBasic_dex();
+        con+=characterType.getBasic_con();
+        wig+=characterType.getBasic_wig();
+        m_int+=characterType.getBasic_int();
+
+
+
+        CharacterRace characterRace = characterUser.getCharacterRace();
+        str+=characterRace.getBasic_str();
+        dex+=characterRace.getBasic_dex();
+        con+=characterRace.getBasic_con();
+        wig+=characterRace.getBasic_wig();
+        m_int+=characterRace.getBasic_int();
+
+        CharacterStats characterStats = new CharacterStats();
+        characterStats.setStat_str(str);
+        characterStats.setStat_dex(dex);
+        characterStats.setStat_con(con);
+        characterStats.setStat_wig(wig);
+        characterStats.setStat_int(m_int);
+        characterStats.setStat_free_points(free_stats);
+
+        characterUser.setCharacterStats(characterStats);
+        session.saveOrUpdate(characterStats);
+        session.saveOrUpdate(characterUser);
+    }
+
+    @Override
+    public void CreateCharacterDetails(UserCharacter characterUser)
+    {
+        Session session = sessionFactory.getCurrentSession();
+
         CharacterStats characterStats= characterUser.getCharacterStats();
 //        CharacterEquipment characterEquipment=characterUser.getCharacterEquipment();
 //        int defFromItems=0;

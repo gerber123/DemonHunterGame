@@ -61,8 +61,26 @@ public class UserCharacterServiceImpl implements UserCharacterService
 
     @Override
     @Transactional
+    public void CreateCharacterStats(UserCharacter userCharacter) {
+        userCharacterDAO.CreateCharacterStats(userCharacter);
+    }
+
+    @Override
+    @Transactional
+    public void CreateCharacterDetails(UserCharacter userCharacter) {
+        userCharacterDAO.CreateCharacterDetails(userCharacter);
+    }
+
+    @Override
+    @Transactional
     public void saveCharacterEquipment() {
         userCharacterDAO.saveCharacterEquipment();
+    }
+
+    @Override
+    @Transactional
+    public void saveCharacterEquipment(UserCharacter characterUser) {
+        userCharacterDAO.saveCharacterEquipment(characterUser);
     }
 
     @Override

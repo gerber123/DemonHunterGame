@@ -83,12 +83,14 @@ public class CreatingController
     @GetMapping("/characterCreated")
     public String characterCreated(Model model)
     {
-        userCharacterService.saveCharacterEquipment();
-        userCharacterService.CreateCharacterStats();
-        userCharacterService.CreateCharacterDetails();
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String name = auth.getName();
         User user = userService.findByUserName(name);
+        UserCharacter characterUser = user.getUsercharacter();
+        userCharacterService.CreateCharacterStats(characterUser);
+        userCharacterService.CreateCharacterDetails(characterUser);
+        userCharacterService.saveCharacterEquipment(characterUser);
+        System.out.println(characterUser.getCharacterEquipment().getBoots().getName()+"<<<<<<<<<<<<<<<<<<<<<<<<<<");
 
         model.addAttribute("user",user);
         return "character-created";

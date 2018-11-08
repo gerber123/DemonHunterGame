@@ -14,7 +14,9 @@ public interface UserCharacterService {
     void CreateCharacterStats();
     void CreateCharacterDetails();
     void saveCharacterEquipment();
-
+    void CreateCharacterStats(UserCharacter userCharacter);
+    void CreateCharacterDetails(UserCharacter userCharacter);
+    void saveCharacterEquipment(UserCharacter characterUser);
     void strIncrease( int stat);
     void dexIncrease(int stat);
     void intIncrease(int stat);

@@ -1,6 +1,7 @@
 package com.gerber.LogInPackage.service;
 
 
+import com.gerber.GamePackage.entity.UserCharacter;
 import com.gerber.LogInPackage.entity.User;
 import com.gerber.LogInPackage.user.CrmUser;
 import org.springframework.security.core.userdetails.UserDetailsService;

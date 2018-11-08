@@ -3,6 +3,7 @@ package com.gerber.GamePackage.entity.EquipmentEntity;
 import com.gerber.GamePackage.entity.CharacterEquipment;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name="weapon")
@@ -29,8 +30,8 @@ public class Weapon
     private int bonus_int;
 
 
-    @OneToOne(mappedBy = "weapon",cascade = {CascadeType.MERGE})
-    CharacterEquipment characterEquipment;
+    @OneToMany(mappedBy = "weapon",cascade = {CascadeType.MERGE})
+    List<CharacterEquipment> characterEquipment;
 
     public int getId() {
         return id;
@@ -80,11 +81,11 @@ public class Weapon
         this.bonus_int = bonus_int;
     }
 
-    public CharacterEquipment getCharacterEquipment() {
+    public List<CharacterEquipment> getCharacterEquipment() {
         return characterEquipment;
     }
 
-    public void setCharacterEquipment(CharacterEquipment characterEquipment) {
+    public void setCharacterEquipment(List<CharacterEquipment> characterEquipment) {
         this.characterEquipment = characterEquipment;
     }
 }

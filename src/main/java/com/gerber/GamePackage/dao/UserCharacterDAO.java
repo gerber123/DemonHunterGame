@@ -11,7 +11,9 @@ public interface UserCharacterDAO  {
     void saveCharacterType(CharacterType characterType);
     void saveCharacterRace(CharacterRace characterRace);
     void saveCharacterEquipment();
-
+    void CreateCharacterStats(UserCharacter characterUser);
+    void CreateCharacterDetails(UserCharacter characterUser);
+ void saveCharacterEquipment(UserCharacter characterUser);
     CharacterRace getCharacterRace(long id);
     void CreateCharacterStats();
     void CreateCharacterDetails();

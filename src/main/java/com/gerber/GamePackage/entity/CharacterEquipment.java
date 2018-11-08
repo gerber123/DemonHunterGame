@@ -15,11 +15,11 @@ public class CharacterEquipment
     private Integer id;
 
 
-    @OneToOne(cascade = CascadeType.MERGE)
+    @ManyToOne(cascade = {CascadeType.MERGE})
     @JoinColumn(name="weapon_id")
     private Weapon weapon;
 
-    @OneToOne(cascade =  CascadeType.MERGE)
+    @ManyToOne(cascade = {CascadeType.MERGE})
     @JoinColumn(name="armor_id")
     private Armor armor;
 
@@ -27,16 +27,16 @@ public class CharacterEquipment
     @JoinColumn(name="gloves_id")
     private Gloves gloves;
 
-    @OneToOne( cascade =  CascadeType.MERGE)
+    @ManyToOne(cascade = {CascadeType.MERGE})
     @JoinColumn(name="helment_id")
     private Helment helment;
 
 
-    @OneToOne(cascade =  CascadeType.MERGE)
+    @ManyToOne(cascade = {CascadeType.MERGE})
     @JoinColumn(name="boots_id")
     private Boots boots;
 
-    @OneToOne(cascade =  CascadeType.MERGE)
+    @ManyToOne(cascade = {CascadeType.MERGE})
     @JoinColumn(name="pants_id")
     private Pants pants;
 
